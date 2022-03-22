@@ -1,0 +1,188 @@
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans:300,500,700);
+
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;  
+  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+hr {
+  background-color: #e4ce6e;
+}
+
+h5 {
+  color: white;
+  margin: 25px;
+}
+
+.hire-me {
+  background-color: #e4bb6e;
+  border-radius: 5%;  
+  border: 2px solid white;
+  font-size: 20px;
+  height: 35px;
+  width: 150px; 
+}
+
+.hire-me a {
+  color: white;  
+}
+
+.hire-me a:hover {
+  color: #052D6E;
+  text-decoration: none;
+}
+
+nav ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-left: -15px;
+  background-color:#e9830fd5;
+  z-index: 9;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  float: left;
+}
+
+nav ul li a:hover {
+  color: #052D6E;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 20px 15px;
+  text-align: center;
+}
+
+
+li {
+  display: inline-block;
+  margin: 0px;
+  padding: 10px;
+}
+
+#welcome-section {
+  padding-top: 75px;
+  margin-top: 125px;
+  display: block;
+  height: 60vh;
+  background-image: url(../images/wlelcome_background.jpg)  ;
+  background-repeat: no-repeat;
+  
+}
+
+#skill-set {
+  margin-bottom: 150px;
+  background-color: white;
+}
+
+#skills{
+  background-color: white;
+  margin-bottom: 150px;  
+}
+.skills-header {
+  margin: 100px;  
+}
+
+
+
+#projects {
+  background-color: #e06f04;
+  margin-bottom: 150px;  
+}
+
+.project-header {
+  margin-top: 150px;
+}
+
+.project-title {
+  color: white; 
+  overflow: hidden;  
+}
+
+.project-img {
+  width: 35% auto;
+  height: 200px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+#contact-me{
+  background-color: white;
+}
+#social{
+  background-color: white;
+}
+
+.header {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.social-icons {
+  margin-bottom: 150px;
+}
+
+.fab:before {
+	display: inline-block;
+	font: 2em "FontAwesome", sans-serif;
+  color: #052D6E;
+ }
+ 
+ .fa-heading:before {
+	color: #40185b;
+}
+
+@media screen and (max-width: 367px) {
+    #comments {
+        width: 80%;
+    }
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
